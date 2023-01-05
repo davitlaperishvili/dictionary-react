@@ -5,7 +5,7 @@ import WordInfo from "./components/WordInfo/WordInfo";
 function App() {
     return (
         <>
-            <ToastContainer autoClose={1000} />
+            <ToastContainer autoClose={1500} />
             <div className="App">
                 <AddWord />
                 <WordInfo />

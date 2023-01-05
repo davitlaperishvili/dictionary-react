@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeWordAction } from "../../redux/actions";
 import RequestInfo from "../../server/RequestInfo";
+import notify from "../../helpers/Notify";
 import "./addWord.scss";
 
 export default function AddWord(props) {
@@ -25,8 +26,11 @@ export default function AddWord(props) {
         try {
             if (!isFormValueEmpty(formValue)) {
                 const wordInfo = await RequestInfo(formValue.word);
+                console.log(wordInfo);
                 if (wordInfo.title && wordInfo.title === "No Definitions Found") {
-                    setFormError(true);
+                    notify("error", wordInfo.title);
+                    setError("error");
+                    dispatch(changeWordAction(wordInfo));
                 } else {
                     dispatch(changeWordAction(wordInfo[0]));
                 }

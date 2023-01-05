@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 const notify = (status, string) => {
     switch (status) {
-        case "danger":
+        case "error":
             toast.error(string);
             break;
 
