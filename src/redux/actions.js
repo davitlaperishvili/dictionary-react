@@ -1,8 +1,8 @@
-import { EXAMPLE_TYPE } from "./types";
+import { CHANGE_WORD } from "./types";
 
-export function exampleAction() {
+export function changeWordAction(wordInfo) {
     return {
-        type: EXAMPLE_TYPE,
-        payload: null,
+        type: CHANGE_WORD,
+        payload: [wordInfo],
     };
 }

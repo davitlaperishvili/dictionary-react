@@ -1,1 +1,17 @@
 @import "./assets/sass/main.scss";
+
+html{
+    background-color: aquamarine;
+    height: 100vh;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.App{
+    background-color: $cwhite;
+    width: 600px;
+    margin: 0 auto;
+}

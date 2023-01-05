@@ -1,1 +1,1 @@
-export const EXAMPLE_TYPE = "APP/TYPES";
+export const CHANGE_WORD = "SERVER/CHANGE_WORD";

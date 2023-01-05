@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { exampleReducer } from "./exampleReducer";
+import { changeWordReducer } from "./changeWordReducer";
 export const rootReducer = combineReducers({
-    example: exampleReducer,
+    word: changeWordReducer,
 });
