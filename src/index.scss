@@ -3,6 +3,9 @@
 html{
     background-color: aquamarine;
     height: 100vh;
+    background-image: url(../public/bg.jpg);
+    background-size: cover;
+
 }
 body{
     display: flex;
@@ -14,4 +17,5 @@ body{
     background-color: $cwhite;
     width: 600px;
     margin: 0 auto;
+    box-shadow: 0 5px 10px rgba($cblack, 0.7);
 }
