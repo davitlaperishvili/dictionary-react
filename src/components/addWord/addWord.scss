@@ -1,18 +1,32 @@
 @import "../../index.scss";
-.add_widget{
+.add_word{
+    .form_items{
+        display: flex;
+        align-items: center;
+    }
     .form_item{
+        flex: 1;
         input{
-            background-color: rgba($cblack, 0.4);
-            border: none;
-            color: $cwhite;
+            background-color: rgba($cblack, 0.1);
+            border: 1px solid transparent;
+            color: $cdark;
+            border-radius: 0;
             &::placeholder{
-                color: $cwhite;
+                color: $cdark;
+                opacity: 0.5;
             }
             &.error{
+                border: 1px solid $cdanger;
                 &::placeholder{
                     color: $cred;
                 }
             }
+        }
+        button{
+            border-radius: 0;
+        }
+        &.form_submit{
+            flex: unset;
         }
     }    
 }

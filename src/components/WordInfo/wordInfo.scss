@@ -1,0 +1,59 @@
+@import "../../index.scss";
+.word_info_wrap{
+    padding: 30px 15px 15px;
+    .no_info_wrap{
+        text-align: center;
+        .no_info_message{
+            margin-bottom: 15px;
+        }
+    }
+    .word_details{
+        .word{
+            display: inline-flex;
+            align-items: flex-start;
+            span{
+                font-size: 30px;
+                text-transform: capitalize;
+            }
+            button{
+                position: absolute;
+                top: 5px;
+                right: -20px;
+                i{
+                    font-size: 16px
+                }
+            }
+        }
+        .part_of_speach{
+            ul{
+                @extend .no-list;
+                li.meaning_item{
+                    margin-bottom: 15px;
+                    padding-left: 20px;
+                    .part_of_speach_name{
+                        margin-bottom: 5px;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    .definition{
+                        padding-left: 10px;
+                        span{
+                            margin-right: 5px;
+                            font-weight: 600;
+                        }
+                    }
+                    .synonyms{
+                        margin: 10px 0;
+                        span{
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                        .synonym{
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

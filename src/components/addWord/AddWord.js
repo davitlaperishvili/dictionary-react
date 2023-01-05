@@ -32,6 +32,7 @@ export default function AddWord(props) {
                     setError("error");
                     dispatch(changeWordAction(wordInfo));
                 } else {
+                    setError("");
                     dispatch(changeWordAction(wordInfo[0]));
                 }
                 setFormValue({
@@ -65,6 +66,11 @@ export default function AddWord(props) {
                     <div className="form_items">
                         <div className="form_item">
                             <input type="text" className={error} name="word" value={formValue.word} onChange={handleInputChange} placeholder={placeholder} />
+                        </div>
+                        <div className="form_item form_submit">
+                            <button type="submit" className="gilaki">
+                                Search
+                            </button>
                         </div>
                     </div>
                 </form>
