@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dictionary-react/static/css/main.d6f8b1b8.css",
+    "main.css": "/dictionary-react/static/css/main.ef19b05a.css",
     "main.js": "/dictionary-react/static/js/main.8d6b8518.js",
     "static/media/bg.jpg": "/dictionary-react/static/media/bg.040dcb5f8bb72d0b6bb9.jpg",
     "static/media/Roboto-Medium.ttf": "/dictionary-react/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
@@ -8,11 +8,11 @@
     "static/media/Roboto-Bold.ttf": "/dictionary-react/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
     "static/media/remixicon.woff2": "/dictionary-react/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "index.html": "/dictionary-react/index.html",
-    "main.d6f8b1b8.css.map": "/dictionary-react/static/css/main.d6f8b1b8.css.map",
+    "main.ef19b05a.css.map": "/dictionary-react/static/css/main.ef19b05a.css.map",
     "main.8d6b8518.js.map": "/dictionary-react/static/js/main.8d6b8518.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6f8b1b8.css",
+    "static/css/main.ef19b05a.css",
     "static/js/main.8d6b8518.js"
   ]
 }
