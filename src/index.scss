@@ -13,9 +13,18 @@ body{
     justify-content: center;
     height: 100%;
 }
+#root{
+    width: 100%;
+}
 .App{
     background-color: $cwhite;
     width: 600px;
     margin: 0 auto;
     box-shadow: 0 5px 10px rgba($cblack, 0.7);
+    @media(max-width: 1024px){
+        width: 80%;
+    }
+    @media(max-width: 768px){
+        width: 95%;
+    }
 }
